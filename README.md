@@ -13,6 +13,14 @@ The web application was used to predict and segregate the following type of orga
 5. Hand
 6. Headt CT
 7. Kvasir-Capsule
+
 The first 6 data are present in the kaggle dataset "MedMNIST" and Kvasir-Capsule is seperate dataset which can be found online.
+
+## Outputs
+![image1](./images/image1.png)
+
+![image2](./images/image2.png)
+
+![image3](./images/image3.png)
 
 
