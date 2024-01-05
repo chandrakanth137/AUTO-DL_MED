@@ -1,0 +1,21 @@
+<!-- waiting.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waiting Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $.ajax({
+          url: '/download',
+          success: function() {
+            window.location.href = '/newpage';
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Please wait while we download your file...</h1>
+  </body>
+</html>

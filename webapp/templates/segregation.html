@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AUTO DL</title>
+    <meta charset="utf-8">
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <style>
+    hr, h3 
+    {
+      font-size: 60px;
+      font-family: poppins;
+      padding-bottom: 20px;
+    }canvas 
+    {
+      background-color: "#fffff";
+    }
+	body{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		background: rgb(2,0,36);
+		padding-top: 100px;
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,208,190,1) 35%, rgba(0,212,255,1) 100%);
+	}
+	.inp
+	{
+		background: black;
+		color: white;
+
+	}
+  .center
+  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+	button{
+		margin: 10px;
+	}
+    </style>
+
+  </head>
+  
+  <body>
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="header">
+            <h3>Medic Image Segregation</h3>
+            <hr>
+          </div>
+      </div>
+        <div class="col center">
+          <form method="post" enctype="multipart/form-data">
+            <input class="form-control inp" type="file" name="file">
+            <br>
+            <input class="btn btn-danger" type="submit" value="Upload">
+          </form>  
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
